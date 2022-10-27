@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студенты-Сайт группы</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="../js/login-popup.js"></script>
+</head>
+
+<body class="page">
+    <header class="header student-header">
+        <img class="site-logo" src="../img/logo.svg" alt="Логотип">
+        <ul class="site-menu">
+            <li><a class="menu-link" href="../index.html">Главная</a></li>
+            <li><a class="menu-link active-link" href="#">Студенты</a></li>
+            <li><a class="menu-link" href="about.html">О курсе</a></li>
+            <li><a class="menu-link" href="contacts.html">Контакты</a></li>
+        </ul>
+        <a class="login-button" href="login.html">Войти</a>
+
+    </header>
+    <div class="login-popup">
+        <h2 class="login-heading">Войти на сайт</h2>
+        <form class="login-form" action="#" method="get">
+            <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+            <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+            <button class="popup-button" type="submit">Войти</button>
+        </form>
+        <div class="close-popup">&#11199;</div>
+    </div>
+    <div class="popup-back"></div>
+    <main class="main my-page">
+        <div class="gradient-box">
+            <h2> O ceбе 🦉</h2>
+            <blockquote>
+                <p> Единственное счастье в жизни — это постоянное стремление вперед.</p>
+                <cite> Эмиль Золя </cite>
+            </blockquote>
+            <img class="notebook" src="../img/lantop.jpg" alt="Ноутбук" width="100" height="100">
+        </div>
+        <div class="gradient-box">
+            <h2 class="time">Расписание</h2>
+            <h3>Лекции</h3>
+            <ol class="lessons-list">
+                <li>Понедельник</li>
+                <li>Среда</li>
+                <li>Пятница</li>
+            </ol>
+            <h3>Консультации</h3>
+            <ul class="day">
+                <li>Суббота</li>
+            </ul>
+        </div>
+        <div class="gradient-box">
+            <h2>Ссылки 💻</h2>
+            <ul class="link-list">
+                <li>&#10004; <a href="https://innopolis.com/">Университет Иннополис</a></li>
+                <li>&#10004; <a href="https://www.google.com/">Гугл Хром</a></li>
+                <li>&#10004; <a href="https://www.figma.com/community/category/web_design/">Фигма</a></li>
+                <li>&#10004; <a href="https://stcinno.github.io/web-links/">Материалы для студентов</a></li>
+                <li>&#10004; <a href="https://github.com/">Гитхаб</a></li>
+            </ul>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <p class="copyright">2022 &copy; <a class="link" href="https://innopolis.com/"> Иннополис</a></p>
+    </footer>
+</body>
+
+</html>
